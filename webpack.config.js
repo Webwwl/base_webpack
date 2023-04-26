@@ -11,12 +11,15 @@ const config = {
   },
   mode: 'development',
   devServer: {
-    port: '8088'
+    port: '8088',
+  },
+  resolve: {
+    extensions: ['.js', '.jsx']
   },
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.jsx?$/,
         use: 'babel-loader'
       }
     ]

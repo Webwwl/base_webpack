@@ -27,5 +27,11 @@
   "bugs": {
     "url": "https://github.com/Webwwl/base_webpack/issues"
   },
-  "homepage": "https://github.com/Webwwl/base_webpack#readme"
+  "homepage": "https://github.com/Webwwl/base_webpack#readme",
+  "dependencies": {
+    "@babel/preset-react": "^7.18.6",
+    "react": "16",
+    "react-dom": "16",
+    "react-router-dom": "5"
+  }
 }
